@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class Partida {
+	/*
     public static int ANCHO = 800;
     public static int ALTO = 600;
 
@@ -101,4 +102,5 @@ public class Partida {
     public void setEnPausa(boolean enPausa) { this.enPausa = enPausa; }
     public List<Proyectil> getProyectiles() { return proyectiles; }
     public void setProyectiles(List<Proyectil> proyectiles) { this.proyectiles = proyectiles; }
+    */
 }

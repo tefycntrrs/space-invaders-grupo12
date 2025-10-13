@@ -27,7 +27,8 @@ public class VentanaInicial extends JFrame {
 		});
 		
 		btnIniciar.addActionListener(e -> {
-	            JOptionPane.showMessageDialog(this, "Iniciar partida (validar créditos)");
+	           VentanaJuego ventanaJuego = new VentanaJuego();
+	           ventanaJuego.setVisible(true); 
 	    });
 
 	    btnRanking.addActionListener(e -> {

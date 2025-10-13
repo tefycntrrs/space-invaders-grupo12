@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Oleada {
-    private List<Nave> naves = new ArrayList<>();
+   /* private List<Nave> naves = new ArrayList<>();
     private int dx = 1;
 
     public Oleada(int cantidad, int inicioX, int inicioY, int espacio) {
@@ -46,4 +46,5 @@ public class Oleada {
     public void setNaves(List<Nave> naves) { this.naves = naves; }
     public int getDx() { return dx; }
     public void setDx(int dx) { this.dx = dx; }
+    */
 }

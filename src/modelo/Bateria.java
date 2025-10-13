@@ -1,6 +1,7 @@
 package modelo;
 
 public class Bateria {
+	/*
     private int x;
     private int paso = 10;
 
@@ -26,4 +27,5 @@ public class Bateria {
     public void setX(int x) { this.x = x; }
     public int getPaso() { return paso; }
     public void setPaso(int paso) { this.paso = paso; }
+    */
 }
