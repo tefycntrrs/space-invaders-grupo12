@@ -1,7 +1,7 @@
-package ui;
+package vista;
 
 import controlador.Controlador;
-import estructura.*;
+import modelo.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 
 public class GUI extends JFrame {
 
-	private final GamePanel gamePanel;
+	/* private final GamePanel gamePanel;
 
     public GUI() {
         super("Space Invader - Simple GUI");
@@ -139,4 +139,5 @@ public class GUI extends JFrame {
             }
         }
     }
+    */
 }

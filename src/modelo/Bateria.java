@@ -1,4 +1,4 @@
-package estructura;
+package modelo;
 
 public class Bateria {
     private int x;

@@ -1,4 +1,4 @@
-package estructura;
+package modelo;
 
 public class Segmento {
     private int tamano;

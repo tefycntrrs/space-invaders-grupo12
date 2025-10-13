@@ -1,8 +1,29 @@
 package controlador;
 
-import estructura.*;
+import modelo.AreaDeJuego;
+import modelo.Nave;
 
 public class Controlador {
+	
+	Nave nave;
+	AreaDeJuego areaJuego;
+	
+	public Controlador() {
+		areaJuego = new AreaDeJuego(600,800);
+		nave = new Nave(100,400,10,50,50,areaJuego);
+	}
+	
+	public int moverNaveDerecha() {
+		return nave.moverDerecha();
+	}
+	
+	public int moverNaveIzquierda() {
+		return nave.moverIzquierda();
+	}
+	
+	
+	
+	/*
     private Juego juego = new Juego();
 
     public void cargarCreditos(int m) { juego.getMonedero().cargar(m); }
@@ -51,4 +72,5 @@ public class Controlador {
     public int devolverCreditos() { return juego.devolverCreditos(); }
 
     public Juego getJuego() { return juego; }
+    */
 }

@@ -1,4 +1,4 @@
-package ui;
+package vista;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,6 +6,11 @@ import java.awt.event.*;
 
 public class VentanaInicial extends JFrame {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public VentanaInicial() {
 		setTitle("Space Invaders - Grupo 12");
 		setSize(400,300);

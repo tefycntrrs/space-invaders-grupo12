@@ -1,4 +1,4 @@
-package estructura;
+package modelo;
 
 public class Monedero {
     private int creditos;

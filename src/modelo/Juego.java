@@ -1,4 +1,4 @@
-package estructura;
+package modelo;
 
 public class Juego {
     private Monedero monedero = new Monedero();
