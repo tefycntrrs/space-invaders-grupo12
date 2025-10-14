@@ -1,6 +1,7 @@
 package vista;
 
 import controlador.Controlador;
+import modelo.MuroDeEnergia;
 
 import javax.swing.*;
 import java.awt.*;
@@ -32,8 +33,21 @@ public class PanelJuego extends JPanel {
         imagenNave = new ImagenNave();
         add(imagenNave);
 
+        //crea 3 muros de energia
+        MuroDeEnergia muro1 = new MuroDeEnergia(100, 300, 150, 50); // 100 y 450 , 325 y 450 , 550 y 450
+        MuroDeEnergia muro2 = new MuroDeEnergia(325, 300, 150, 50);
+        MuroDeEnergia muro3 = new MuroDeEnergia(550, 300, 150, 50);
+        //crea 3 imagenes de muro
+        ImagenMuroDeEnergia imgMuro1 = new ImagenMuroDeEnergia(muro1);
+        ImagenMuroDeEnergia imgMuro2 = new ImagenMuroDeEnergia(muro2);
+        ImagenMuroDeEnergia imgMuro3 = new ImagenMuroDeEnergia(muro3);
+        // Agregar al panel
+        add(imgMuro1);
+        add(imgMuro2);
+        add(imgMuro3);
+
         // Posiciona inicialmente la nave en el centro
-        imagenNave.mover(400, 300);
+        imagenNave.mover(200, 450);
 
         // Permite que el panel reciba eventos de teclado
         setFocusable(true);
@@ -70,7 +84,7 @@ public class PanelJuego extends JPanel {
                 x = controlador.moverNaveDerecha();
             }
             // Actualiza la posición visual de la nave en el panel
-            imagenNave.mover(x, 300);
+            imagenNave.mover(x, 450);
         }
 
         @Override
