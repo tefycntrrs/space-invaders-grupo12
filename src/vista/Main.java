@@ -1,11 +1,10 @@
 package vista;
 
-import javax.swing.JFrame;
-import javax.swing.SwingUtilities;
+import javax.swing.*;
 
 
 public class Main {
     public static void main(String[] args) {
-    	SwingUtilities.invokeLater(() -> new VentanaInicial().setVisible(true));
+        SwingUtilities.invokeLater(() -> new VentanaInicial().setVisible(true));
     }
 }
